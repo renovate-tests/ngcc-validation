@@ -1,7 +1,4 @@
 {
-  "extends": [
-    "schedule:nonOfficeHours"
-  ],
   "automerge": true,
   "major": {
     "automerge": false
@@ -10,7 +7,6 @@
   "semanticCommits": true,
   "semanticCommitType": "build",
   "separateMajorMinor": false,
-  "prHourlyLimit": 2,
   "timezone": "America/Tijuana",
   "ignoreDeps": ["nativescript-angular"],
   "packageRules": [
